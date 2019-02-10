@@ -86,7 +86,7 @@ function btn(){
 
   let table= document.createElement("table");
   table.setAttribute('align', "center");
-  for (var i=0; i<10; i++){
+  for (var i=0; i<arr.length; i++){
     let tr= document.createElement("tr");
     let td = document.createElement('td');
     let pic =document.createElement('img');
